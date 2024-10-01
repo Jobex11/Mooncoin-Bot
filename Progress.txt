@@ -1,0 +1,14 @@
+ DAY 1: 
+
+ - initialize the telegram bot api's
+ - initialize the telegram mini app
+ - hosted the telegram bot on a deployment url
+
+
+
+ DAY 2 
+
+
+
+
+ DAY 3
