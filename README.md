@@ -46,3 +46,15 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/kandybot.git
    ```
+
+2. **Install the dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **spining the local server:**
+
+   ```bash
+   npm start
+   ```
