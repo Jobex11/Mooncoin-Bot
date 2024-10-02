@@ -26,7 +26,7 @@ bot.onText(/\/start/, (msg) => {
         [
           {
             text: "View Mooncoin App 📱",
-            url: "https://t.me/mooncoin_spinbot/kandybot",
+            url: "https://moonmovers-telegram-mini-app.onrender.com",
           },
         ],
       ],
