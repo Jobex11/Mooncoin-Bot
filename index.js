@@ -14,7 +14,7 @@ bot.onText(/\/start/, (msg) => {
   const username = msg.from.username
     ? `@${msg.from.username}`
     : msg.from.first_name;
-  const welcomeMessage = `Welcome ${username} to  Kandy bot ! 🚀\n\n Kandy bot is a bot for the mooncoin token, allowing you to spin and earn mooncoin. \n\n Invite more frineds = Get more spins = Earn more poins = More $Moon!`;
+  const welcomeMessage = `Welcome ${username} to Kandy bot! 🚀\n\nKandy bot is a bot for the Mooncoin token, allowing you to spin and earn Mooncoin.\n\nInvite more friends = Get more spins = Earn more points = More $Moon!`;
 
   const options = {
     reply_markup: {
@@ -26,7 +26,9 @@ bot.onText(/\/start/, (msg) => {
         [
           {
             text: "View Mooncoin App 📱",
-            url: "https://moonmovers-telegram-mini-app.onrender.com",
+            web_app: {
+              url: "https://moonmovers-telegram-mini-app.onrender.com", // Your mini app URL
+            },
           },
         ],
       ],
@@ -36,7 +38,7 @@ bot.onText(/\/start/, (msg) => {
   bot.sendMessage(chatId, welcomeMessage, options);
 });
 
-//  route for health check
+// Route for health check
 app.get("/", (req, res) => {
   res.send("Telegram Bot is running!");
 });
