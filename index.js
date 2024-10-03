@@ -14,7 +14,7 @@ bot.onText(/\/start/, (msg) => {
   const username = msg.from.username
     ? `@${msg.from.username}`
     : msg.from.first_name;
-  const welcomeMessage = `Welcome ${username} to Kandy bot! 🚀\n\nKandy bot is a bot for the Mooncoin token, allowing you to spin and earn Mooncoin.\n\nInvite more friends = Get more spins = Earn more points = More $Moon!`;
+  const welcomeMessage = `Welcome ${username} to MoonMovers bot! 🚀\n\nMoonmovers bot is a bot for the Mooncoin token, allowing you to spin and earn Mooncoin.\n\nInvite more friends = Get more spins = Earn more points = More $Moon!`;
 
   const options = {
     reply_markup: {
@@ -27,9 +27,8 @@ bot.onText(/\/start/, (msg) => {
           {
             text: "View Mooncoin App 📱",
             web_app: {
-              
-              url:"https://movers-woad.vercel.app",
-             // Your mini app url    url: "https://moonmovers-telegram-mini-app.onrender.com",
+              url: "https://movers-woad.vercel.app",
+              // Your mini app url    url: "https://moonmovers-telegram-mini-app.onrender.com",
             },
           },
         ],
