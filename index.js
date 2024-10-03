@@ -27,7 +27,9 @@ bot.onText(/\/start/, (msg) => {
           {
             text: "View Mooncoin App 📱",
             web_app: {
-              url: "https://moonmovers-telegram-mini-app.onrender.com", // Your mini app URL
+              
+              url:"https://movers-woad.vercel.app",
+             // Your mini app url    url: "https://moonmovers-telegram-mini-app.onrender.com",
             },
           },
         ],
